@@ -6,7 +6,6 @@ class Main {
 		checker.addCheck(new NotNullCheck());
 
 		System.out.format("Output of run on null: %b\n", checker.allPass(null));
-		checker.logError();
 		System.out.format("Output of run on new object: %b\n", checker.allPass(new Object()));
 	}
 }
